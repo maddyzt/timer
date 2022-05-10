@@ -12,7 +12,7 @@
 let array = process.argv.slice(2);
 let delay = array[0]*1000;
 
-for (i = 0; i < array.length; i++) {
+for (let i = 0; i < array.length; i++) {
   if (array[i] <= 0 || isNaN(array[i])) {
     process.exit();
   } else {
